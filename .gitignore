@@ -1,0 +1,45 @@
+# 环境变量文件
+.env
+*.env
+.env.*
+
+# Go 编译文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go 依赖目录
+/vendor/
+/go.sum
+
+# IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+
+# 二进制文件
+bin/
+dist/
+
+# 测试覆盖率文件
+coverage.txt
+coverage.html
+
+# 其他
+*.bak
+*.tmp
+*~
